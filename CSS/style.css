@@ -26,6 +26,7 @@ strong {
 .imagem {
    background-color: #404EED;
    padding: 31px;
+   max-width: 55%;
 }
 
 footer {
@@ -37,7 +38,7 @@ footer {
 
 .ultimos-pedidos {
    width: 90%;
-   margin: 10px 80px;
+   margin: 10px 90px;
 }
 
 .ultimos {
@@ -46,6 +47,7 @@ footer {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   flex-wrap: wrap;
    margin-top: 15px;
 }
 
@@ -54,6 +56,9 @@ footer {
    border-radius: 10px;
    font-size: 20px;
    padding: 10px;
+   margin-bottom: 15px;
+   max-width: 240px;
+   max-height: 240px;
 }
 
 .pedido img {
@@ -147,4 +152,8 @@ button {
    background: #c4c4c4;
    border-radius: 10px;
    font-size: 20px;
+}
+
+.selecionado {
+   border: 3px solid #404EED;
 }
